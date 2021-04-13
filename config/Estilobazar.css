@@ -9,7 +9,7 @@
 }
 #caja:focus {
     color: white;
-    background-color: darkolivegreen;
+    background-color: rgb(19, 26, 8);
 }
 #logo{
     width: 700px;

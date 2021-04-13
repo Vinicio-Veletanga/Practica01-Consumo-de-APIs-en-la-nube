@@ -12,7 +12,7 @@ function cargarnews() {
                 "<td>" + datos.author + "</td><br>" +
                 "<td>" + datos.title + "</td><br>" +
                 "<td><a href=" + datos.url + ">" + datos.url + "</a></td><br>" +
-                "<td><img src=" + datos.urlToImage + "></td > <br>" + "</tr>";
+                "<td><img src=" + datos.urlToImage + " width='500' height='600'></td > <br>" + "</tr>";
 
         });
         document.getElementById("tabladetalles").innerHTML = detalle;
